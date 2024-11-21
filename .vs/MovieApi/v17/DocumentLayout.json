@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Raquel\\source\\repos\\MovieApi\\",
+  "WorkspaceRootPath": "C:\\Users\\gustavo.oliveira\\source\\repos\\API\\c-api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1F192AF6-F627-40E3-BA47-C08CE53D6611}|MovieApi\\MovieApi.csproj|c:\\users\\raquel\\source\\repos\\movieapi\\movieapi\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1F192AF6-F627-40E3-BA47-C08CE53D6611}|MovieApi\\MovieApi.csproj|c:\\users\\gustavo.oliveira\\source\\repos\\api\\c-api\\movieapi\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F192AF6-F627-40E3-BA47-C08CE53D6611}|MovieApi\\MovieApi.csproj|solutionrelative:movieapi\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F192AF6-F627-40E3-BA47-C08CE53D6611}|MovieApi\\MovieApi.csproj|c:\\users\\raquel\\source\\repos\\movieapi\\movieapi\\data\\moviecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F192AF6-F627-40E3-BA47-C08CE53D6611}|MovieApi\\MovieApi.csproj|solutionrelative:movieapi\\data\\moviecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F192AF6-F627-40E3-BA47-C08CE53D6611}|MovieApi\\MovieApi.csproj|c:\\users\\raquel\\source\\repos\\movieapi\\movieapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1F192AF6-F627-40E3-BA47-C08CE53D6611}|MovieApi\\MovieApi.csproj|c:\\users\\gustavo.oliveira\\source\\repos\\api\\c-api\\movieapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F192AF6-F627-40E3-BA47-C08CE53D6611}|MovieApi\\MovieApi.csproj|solutionrelative:movieapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F192AF6-F627-40E3-BA47-C08CE53D6611}|MovieApi\\MovieApi.csproj|c:\\users\\raquel\\source\\repos\\movieapi\\movieapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1F192AF6-F627-40E3-BA47-C08CE53D6611}|MovieApi\\MovieApi.csproj|solutionrelative:movieapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{1F192AF6-F627-40E3-BA47-C08CE53D6611}|MovieApi\\MovieApi.csproj|c:\\users\\gustavo.oliveira\\source\\repos\\api\\c-api\\movieapi\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F192AF6-F627-40E3-BA47-C08CE53D6611}|MovieApi\\MovieApi.csproj|solutionrelative:movieapi\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F192AF6-F627-40E3-BA47-C08CE53D6611}|MovieApi\\MovieApi.csproj|c:\\users\\raquel\\source\\repos\\movieapi\\movieapi\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F192AF6-F627-40E3-BA47-C08CE53D6611}|MovieApi\\MovieApi.csproj|solutionrelative:movieapi\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F192AF6-F627-40E3-BA47-C08CE53D6611}|MovieApi\\MovieApi.csproj|c:\\users\\gustavo.oliveira\\source\\repos\\api\\c-api\\movieapi\\data\\moviecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F192AF6-F627-40E3-BA47-C08CE53D6611}|MovieApi\\MovieApi.csproj|solutionrelative:movieapi\\data\\moviecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F192AF6-F627-40E3-BA47-C08CE53D6611}|MovieApi\\MovieApi.csproj|c:\\users\\gustavo.oliveira\\source\\repos\\api\\c-api\\movieapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1F192AF6-F627-40E3-BA47-C08CE53D6611}|MovieApi\\MovieApi.csproj|solutionrelative:movieapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,30 +30,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 277,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Raquel\\source\\repos\\MovieApi\\MovieApi\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\gustavo.oliveira\\source\\repos\\API\\c-api\\MovieApi\\appsettings.json",
               "RelativeDocumentMoniker": "MovieApi\\appsettings.json",
-              "ToolTip": "C:\\Users\\Raquel\\source\\repos\\MovieApi\\MovieApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\gustavo.oliveira\\source\\repos\\API\\c-api\\MovieApi\\appsettings.json",
               "RelativeToolTip": "MovieApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-21T02:04:57.961Z",
+              "WhenOpened": "2024-11-21T12:35:12.947Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\gustavo.oliveira\\source\\repos\\API\\c-api\\MovieApi\\Models\\Movie.cs",
+              "RelativeDocumentMoniker": "MovieApi\\Models\\Movie.cs",
+              "ToolTip": "C:\\Users\\gustavo.oliveira\\source\\repos\\API\\c-api\\MovieApi\\Models\\Movie.cs",
+              "RelativeToolTip": "MovieApi\\Models\\Movie.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T18:36:47.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "MovieContext.cs",
-              "DocumentMoniker": "C:\\Users\\Raquel\\source\\repos\\MovieApi\\MovieApi\\Data\\MovieContext.cs",
+              "DocumentMoniker": "C:\\Users\\gustavo.oliveira\\source\\repos\\API\\c-api\\MovieApi\\Data\\MovieContext.cs",
               "RelativeDocumentMoniker": "MovieApi\\Data\\MovieContext.cs",
-              "ToolTip": "C:\\Users\\Raquel\\source\\repos\\MovieApi\\MovieApi\\Data\\MovieContext.cs",
+              "ToolTip": "C:\\Users\\gustavo.oliveira\\source\\repos\\API\\c-api\\MovieApi\\Data\\MovieContext.cs",
               "RelativeToolTip": "MovieApi\\Data\\MovieContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAWAQAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T02:01:40.029Z",
               "EditorCaption": ""
@@ -62,37 +75,24 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MovieController.cs",
-              "DocumentMoniker": "C:\\Users\\Raquel\\source\\repos\\MovieApi\\MovieApi\\Controllers\\MovieController.cs",
+              "DocumentMoniker": "C:\\Users\\gustavo.oliveira\\source\\repos\\API\\c-api\\MovieApi\\Controllers\\MovieController.cs",
               "RelativeDocumentMoniker": "MovieApi\\Controllers\\MovieController.cs",
-              "ToolTip": "C:\\Users\\Raquel\\source\\repos\\MovieApi\\MovieApi\\Controllers\\MovieController.cs",
+              "ToolTip": "C:\\Users\\gustavo.oliveira\\source\\repos\\API\\c-api\\MovieApi\\Controllers\\MovieController.cs",
               "RelativeToolTip": "MovieApi\\Controllers\\MovieController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAArAAAAAAAAAA==",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAAB8AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T18:37:08.059Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Movie.cs",
-              "DocumentMoniker": "C:\\Users\\Raquel\\source\\repos\\MovieApi\\MovieApi\\Models\\Movie.cs",
-              "RelativeDocumentMoniker": "MovieApi\\Models\\Movie.cs",
-              "ToolTip": "C:\\Users\\Raquel\\source\\repos\\MovieApi\\MovieApi\\Models\\Movie.cs",
-              "RelativeToolTip": "MovieApi\\Models\\Movie.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T18:36:47.066Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Raquel\\source\\repos\\MovieApi\\MovieApi\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\gustavo.oliveira\\source\\repos\\API\\c-api\\MovieApi\\Program.cs",
               "RelativeDocumentMoniker": "MovieApi\\Program.cs",
-              "ToolTip": "C:\\Users\\Raquel\\source\\repos\\MovieApi\\MovieApi\\Program.cs",
+              "ToolTip": "C:\\Users\\gustavo.oliveira\\source\\repos\\API\\c-api\\MovieApi\\Program.cs",
               "RelativeToolTip": "MovieApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA3AAAAAAAAAA==",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAqwBUAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T18:13:37.844Z",
               "EditorCaption": ""
