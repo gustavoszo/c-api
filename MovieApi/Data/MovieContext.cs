@@ -12,7 +12,7 @@ namespace MovieApi.Data
         { }
 
         //  Isso representa a tabela Movies no banco de dados. O DbSet é uma coleção de todas as entidades do tipo Movie. O EF Core cria automaticamente uma tabela chamada Movies (a menos que você defina um nome diferente usando [Table("NomeTabela")]) baseada nesta propriedade.
-        public DbSet<Movie> movies { get; set; }
+        public DbSet<Movie> Movies { get; set; }
 
     }
 }
