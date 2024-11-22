@@ -1,15 +1,11 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
 
-namespace MovieApi.Models
+namespace MovieApi.Dtos
 {
-    public class Movie
+    public class UpdateMovieDto
     {
-        [Key]
-        [Required]
-        public int Id { get; set; }
 
-        // Anotacao [StringLenght(50)] Valida; Anotacao [MaxLenght(50)] Valida e mapeia para o banco
         [Required]
         [MinLength(2, ErrorMessage = "O nome do filme deve ter no minimo 2 caracteres")]
         [Column(TypeName = "VARCHAR(255)")]
@@ -21,7 +17,8 @@ namespace MovieApi.Models
 
         [Required]
         [Range(70, 600, ErrorMessage = "A duração deve ter entre 70 e 600 minutos")]
-        public int Duration { get; set; } 
+        public int Duration { get; set; }
+
 
     }
 }

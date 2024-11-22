@@ -18,16 +18,18 @@ namespace MovieApi
 
             /*
             builder.Services.AddDbContext<FilmeContext>:
-            Adiciona ao container de injeção de dependência do .NET um serviço do tipo DbContext com a classe FilmeContext.
-            Isso permite que o FilmeContext seja injetado automaticamente em outros serviços ou controladores que precisem dele.
+            Adiciona ao container de injeï¿½ï¿½o de dependï¿½ncia do .NET um serviï¿½o do tipo DbContext com a classe FilmeContext.
+            Isso permite que o FilmeContext seja injetado automaticamente em outros serviï¿½os ou controladores que precisem dele.
 
             (opts => opts.UseMySql(connectionString,ServerVersion.AutoDetect(connectionString))): 
-            Configura o DbContext para usar o MySQL como o provedor de banco de dados. O método UseMySql recebe dois parâmetros: a string de conexão com o banco de dados e a versão do servidor MySQL.
-            A string de conexão contém as informações necessárias para conectar ao banco de dados, como o servidor, o nome do banco de dados, o usuário e a senha. O método ServerVersion.AutoDetect(connectionString) é usado para detectar automaticamente a versão do servidor MySQL.
+            Configura o DbContext para usar o MySQL como o provedor de banco de dados. O mï¿½todo UseMySql recebe dois parï¿½metros: a string de conexï¿½o com o banco de dados e a versï¿½o do servidor MySQL.
+            A string de conexï¿½o contï¿½m as informaï¿½ï¿½es necessï¿½rias para conectar ao banco de dados, como o servidor, o nome do banco de dados, o usuï¿½rio e a senha. O mï¿½todo ServerVersion.AutoDetect(connectionString) ï¿½ usado para detectar automaticamente a versï¿½o do servidor MySQL.
             */
             builder.Services.AddDbContext<MovieContext>(opts => opts.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
 
-            builder.Services.AddControllers();
+            builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+            builder.Services.AddControllers().AddNewtonsoftJson();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
